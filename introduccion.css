@@ -1,0 +1,1104 @@
+.introduccion {
+  background-color: #db7a55;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.introduccion .div-7 {
+  background-color: #db7a55;
+  overflow: hidden;
+  width: 1440px;
+  height: 5795px;
+  position: relative;
+}
+
+.introduccion .overlap-24 {
+  position: absolute;
+  width: 1534px;
+  height: 1176px;
+  top: 2760px;
+  left: -58px;
+}
+
+.introduccion .rectangle-12 {
+  position: absolute;
+  width: 1440px;
+  height: 910px;
+  top: 103px;
+  left: 58px;
+  background-color: #ecb462;
+}
+
+.introduccion .text-wrapper-38 {
+  position: absolute;
+  width: 809px;
+  top: 492px;
+  left: 262px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.introduccion .vector-60 {
+  position: absolute;
+  width: 298px;
+  height: 316px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .vector-61 {
+  position: absolute;
+  width: 510px;
+  height: 370px;
+  top: 806px;
+  left: 1024px;
+}
+
+.introduccion .text-wrapper-39 {
+  position: absolute;
+  width: 1078px;
+  top: 328px;
+  left: 238px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.introduccion .group-11 {
+  position: absolute;
+  width: 269px;
+  height: 389px;
+  top: 550px;
+  left: 1229px;
+}
+
+.introduccion .overlap-25 {
+  position: absolute;
+  width: 1440px;
+  height: 177px;
+  top: 5618px;
+  left: 0;
+  background-color: #ecb462;
+}
+
+.introduccion .overlap-26 {
+  position: absolute;
+  width: 322px;
+  height: 54px;
+  top: 57px;
+  left: 945px;
+}
+
+.introduccion .rectangle-13 {
+  position: absolute;
+  width: 322px;
+  height: 53px;
+  top: 0;
+  left: 0;
+  background-color: #db915b;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color: #844404;
+}
+
+.introduccion .text-wrapper-40 {
+  position: absolute;
+  width: 188px;
+  top: 4px;
+  left: 47px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #35374d;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.introduccion .arrow-left-3 {
+  left: 223px;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 2px;
+}
+
+.introduccion .overlap-27 {
+  position: absolute;
+  width: 322px;
+  height: 54px;
+  top: 57px;
+  left: 234px;
+}
+
+.introduccion .text-wrapper-41 {
+  position: absolute;
+  width: 188px;
+  top: 4px;
+  left: 76px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #35374d;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.introduccion .arrow-left-4 {
+  left: 69px;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 2px;
+}
+
+.introduccion .text-wrapper-42 {
+  position: absolute;
+  width: 780px;
+  top: 4283px;
+  left: 526px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.introduccion .text-wrapper-43 {
+  width: 397px;
+  height: 191px;
+  top: 3977px;
+  left: 97px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 240px;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .text-wrapper-44 {
+  position: absolute;
+  width: 728px;
+  height: 191px;
+  top: 3977px;
+  left: 526px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: 90px;
+}
+
+.introduccion .overlap-28 {
+  position: absolute;
+  width: 365px;
+  height: 632px;
+  top: 4477px;
+  left: 70px;
+}
+
+.introduccion .text-wrapper-45 {
+  position: absolute;
+  width: 235px;
+  height: 88px;
+  top: 0;
+  left: 99px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 35px;
+}
+
+.introduccion .overlap-29 {
+  position: absolute;
+  width: 365px;
+  height: 584px;
+  top: 48px;
+  left: 0;
+}
+
+.introduccion .vector-62 {
+  position: absolute;
+  width: 308px;
+  height: 247px;
+  top: 90px;
+  left: 57px;
+}
+
+.introduccion .vector-63 {
+  position: absolute;
+  width: 83px;
+  height: 67px;
+  top: 218px;
+  left: 187px;
+}
+
+.introduccion .vector-64 {
+  position: absolute;
+  width: 83px;
+  height: 67px;
+  top: 517px;
+  left: 194px;
+}
+
+.introduccion .text-wrapper-46 {
+  width: 64px;
+  top: 222px;
+  left: 99px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .text-wrapper-47 {
+  width: 109px;
+  top: 287px;
+  left: 99px;
+  position: absolute;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.introduccion .elements {
+  position: absolute;
+  width: 99px;
+  height: 106px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-48 {
+  width: 34px;
+  height: 38px;
+  top: 542px;
+  left: 213px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  line-height: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .line {
+  height: 221px;
+  top: 297px;
+  left: 224px;
+  position: absolute;
+  width: 15px;
+}
+
+.introduccion .overlap-30 {
+  position: absolute;
+  width: 334px;
+  height: 615px;
+  top: 4608px;
+  left: 1012px;
+}
+
+.introduccion .text-wrapper-49 {
+  position: absolute;
+  width: 158px;
+  height: 38px;
+  top: 577px;
+  left: 176px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.introduccion .overlap-31 {
+  position: absolute;
+  width: 308px;
+  height: 584px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .vector-65 {
+  position: absolute;
+  width: 308px;
+  height: 247px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-50 {
+  width: 95px;
+  top: 125px;
+  left: 59px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .text-wrapper-51 {
+  width: 145px;
+  top: 198px;
+  left: 69px;
+  position: absolute;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.introduccion .elements-2 {
+  position: absolute;
+  width: 59px;
+  height: 110px;
+  top: 474px;
+  left: 107px;
+}
+
+.introduccion .vector-66 {
+  position: absolute;
+  width: 83px;
+  height: 67px;
+  top: 121px;
+  left: 132px;
+}
+
+.introduccion .vector-67 {
+  position: absolute;
+  width: 83px;
+  height: 67px;
+  top: 434px;
+  left: 154px;
+}
+
+.introduccion .text-wrapper-52 {
+  width: 34px;
+  height: 38px;
+  top: 459px;
+  left: 171px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  line-height: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .line-2 {
+  height: 242px;
+  top: 202px;
+  left: 190px;
+  position: absolute;
+  width: 15px;
+}
+
+.introduccion .overlap-32 {
+  position: absolute;
+  width: 1440px;
+  height: 433px;
+  top: 54px;
+  left: 0;
+}
+
+.introduccion .text-wrapper-53 {
+  position: absolute;
+  width: 1075px;
+  top: 105px;
+  left: 183px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #f0e5db;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 100px;
+}
+
+.introduccion .text-wrapper-54 {
+  position: absolute;
+  width: 1440px;
+  top: 33px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f0e5db;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.introduccion .group-12 {
+  position: absolute;
+  width: 195px;
+  height: 301px;
+  top: 0;
+  left: 1px;
+}
+
+.introduccion .overlap-33 {
+  position: absolute;
+  width: 78px;
+  height: 301px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .vector-68 {
+  position: absolute;
+  width: 62px;
+  height: 269px;
+  top: 16px;
+  left: 0;
+}
+
+.introduccion .ellipse-10 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 42px;
+  background-color: #f3eded;
+  border-radius: 18px;
+}
+
+.introduccion .ellipse-11 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 67px;
+  left: 42px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.introduccion .ellipse-12 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 79px;
+  left: 54px;
+  background-color: #62c091;
+  border-radius: 6.5px;
+}
+
+.introduccion .ellipse-13 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 133px;
+  left: 42px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.introduccion .ellipse-14 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 199px;
+  left: 42px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.introduccion .ellipse-15 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 265px;
+  left: 42px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
+
+.introduccion .home-2 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 5px;
+  left: 48px;
+}
+
+.introduccion .text-wrapper-55 {
+  position: absolute;
+  width: 99px;
+  height: 29px;
+  top: 71px;
+  left: 88px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.introduccion .text-wrapper-56 {
+  top: 136px;
+  position: absolute;
+  width: 99px;
+  height: 29px;
+  left: 88px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.introduccion .text-wrapper-57 {
+  top: 206px;
+  position: absolute;
+  width: 99px;
+  height: 29px;
+  left: 88px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.introduccion .text-wrapper-58 {
+  top: 268px;
+  position: absolute;
+  width: 99px;
+  height: 29px;
+  left: 88px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 35px;
+  white-space: nowrap;
+}
+
+.introduccion .overlap-34 {
+  position: absolute;
+  width: 240px;
+  height: 393px;
+  top: 4669px;
+  left: 741px;
+}
+
+.introduccion .vector-69 {
+  position: absolute;
+  width: 240px;
+  height: 193px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-59 {
+  width: 95px;
+  top: 64px;
+  left: 47px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .text-wrapper-60 {
+  width: 145px;
+  top: 140px;
+  left: 32px;
+  position: absolute;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.introduccion .vector-70 {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 94px;
+  left: 117px;
+}
+
+.introduccion .line-3 {
+  height: 252px;
+  top: 141px;
+  left: 136px;
+  position: absolute;
+  width: 15px;
+}
+
+.introduccion .overlap-35 {
+  position: absolute;
+  width: 188px;
+  height: 359px;
+  top: 4703px;
+  left: 505px;
+}
+
+.introduccion .vector-71 {
+  position: absolute;
+  width: 188px;
+  height: 152px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-61 {
+  width: 95px;
+  top: 47px;
+  left: 19px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .text-wrapper-62 {
+  position: absolute;
+  width: 177px;
+  top: 106px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 45px;
+  white-space: nowrap;
+}
+
+.introduccion .vector-72 {
+  position: absolute;
+  width: 40px;
+  height: 32px;
+  top: 68px;
+  left: 84px;
+}
+
+.introduccion .line-4 {
+  height: 252px;
+  top: 107px;
+  left: 98px;
+  position: absolute;
+  width: 15px;
+}
+
+.introduccion .overlap-36 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 5077px;
+  left: 589px;
+}
+
+.introduccion .vector-73 {
+  position: absolute;
+  width: 40px;
+  height: 32px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-63 {
+  width: 34px;
+  height: 38px;
+  top: 2px;
+  left: 6px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  line-height: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .overlap-37 {
+  position: absolute;
+  width: 50px;
+  height: 44px;
+  top: 5069px;
+  left: 858px;
+}
+
+.introduccion .vector-74 {
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.introduccion .text-wrapper-64 {
+  width: 34px;
+  height: 38px;
+  top: 6px;
+  left: 8px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  line-height: 35px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .overlap-38 {
+  position: absolute;
+  width: 1398px;
+  height: 1221px;
+  top: 886px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/elements.svg);
+  background-size: 100% 100%;
+}
+
+.introduccion .text-wrapper-65 {
+  position: absolute;
+  width: 694px;
+  top: 115px;
+  left: 116px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #db915b;
+  font-size: 70px;
+  letter-spacing: 0;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.introduccion .text-wrapper-66 {
+  position: absolute;
+  width: 235px;
+  top: 414px;
+  left: 93px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #844404;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .text-wrapper-67 {
+  position: absolute;
+  width: 183px;
+  top: 355px;
+  left: 441px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #844404;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .convocatorias {
+  position: absolute;
+  top: 413px;
+  left: 628px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #844404;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .asesor-as {
+  position: absolute;
+  top: 405px;
+  left: 874px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #844404;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .espacios-de-formaci {
+  position: absolute;
+  top: 223px;
+  left: 1097px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #844404;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .overlap-39 {
+  position: absolute;
+  width: 957px;
+  height: 89px;
+  top: 234px;
+  left: 79px;
+}
+
+.introduccion .group-13 {
+  position: absolute;
+  width: 957px;
+  height: 34px;
+  top: 28px;
+  left: 0;
+}
+
+.introduccion .overlap-group-wrapper {
+  position: absolute;
+  width: 110px;
+  height: 49px;
+  top: 20px;
+  left: 66px;
+}
+
+.introduccion .overlap-group-9 {
+  position: relative;
+  width: 108px;
+  height: 49px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-189.svg);
+  background-size: 100% 100%;
+}
+
+.introduccion .text-wrapper-68 {
+  width: 108px;
+  top: 5px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .group-14 {
+  position: absolute;
+  width: 105px;
+  height: 73px;
+  top: 8px;
+  left: 315px;
+}
+
+.introduccion .overlap-40 {
+  position: relative;
+  width: 103px;
+  height: 73px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-191.svg);
+  background-size: 100% 100%;
+}
+
+.introduccion .text-wrapper-69 {
+  width: 101px;
+  top: 17px;
+  left: 2px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .group-15 {
+  position: absolute;
+  width: 93px;
+  height: 89px;
+  top: 0;
+  left: 559px;
+}
+
+.introduccion .overlap-41 {
+  position: relative;
+  width: 91px;
+  height: 89px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-195.svg);
+  background-size: 100% 100%;
+}
+
+.introduccion .text-wrapper-70 {
+  width: 91px;
+  top: 24px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .group-16 {
+  position: absolute;
+  width: 101px;
+  height: 73px;
+  top: 8px;
+  left: 791px;
+}
+
+.introduccion .overlap-42 {
+  position: relative;
+  width: 99px;
+  height: 73px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-201.svg);
+  background-size: 100% 100%;
+}
+
+.introduccion .text-wrapper-71 {
+  width: 98px;
+  top: 20px;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 30px;
+  text-align: center;
+  line-height: 45px;
+  white-space: nowrap;
+  position: absolute;
+  letter-spacing: 0;
+}
+
+.introduccion .desde-hace-cuatro-a {
+  position: absolute;
+  width: 1123px;
+  top: 570px;
+  left: 196px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f0e5db;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.introduccion .text-wrapper-72 {
+  line-height: 50px;
+}
+
+.introduccion .text-wrapper-73 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 50px;
+}
+
+.introduccion .text-wrapper-74 {
+  position: absolute;
+  width: 1024px;
+  top: 2197px;
+  left: 237px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 80px;
+  letter-spacing: 0;
+  line-height: 95px;
+}
+
+.introduccion .vector-75 {
+  position: absolute;
+  width: 220px;
+  height: 536px;
+  top: 2139px;
+  left: 1266px;
+}
+
+.introduccion .vector-76 {
+  position: absolute;
+  width: 257px;
+  height: 421px;
+  top: 2162px;
+  left: -77px;
+}
+
+.introduccion .text-wrapper-75 {
+  position: absolute;
+  width: 611px;
+  top: 5223px;
+  left: 441px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 45px;
+}

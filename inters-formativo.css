@@ -1,0 +1,169 @@
+.inters-formativo {
+  background-color: #e1a64f;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.inters-formativo .overlap-wrapper {
+  background-color: #e1a64f;
+  overflow: hidden;
+  width: 1106px;
+  height: 632px;
+}
+
+.inters-formativo .overlap-7 {
+  position: relative;
+  width: 1213px;
+  height: 786px;
+  top: -75px;
+  left: -21px;
+}
+
+.inters-formativo .overlap-8 {
+  position: absolute;
+  width: 1213px;
+  height: 786px;
+  top: 0;
+  left: 0;
+}
+
+.inters-formativo .img-wrapper {
+  position: absolute;
+  width: 442px;
+  height: 449px;
+  top: 0;
+  left: 771px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-21.svg);
+  background-size: 100% 100%;
+}
+
+.inters-formativo .group-5 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 162px;
+  left: 244px;
+}
+
+.inters-formativo .overlap-group-5 {
+  position: absolute;
+  width: 1043px;
+  height: 479px;
+  top: 162px;
+  left: 69px;
+}
+
+.inters-formativo .rectangle-5 {
+  position: absolute;
+  width: 560px;
+  height: 68px;
+  top: 0;
+  left: 0;
+  background-color: #844404;
+  border-radius: 50px;
+}
+
+.inters-formativo .text-wrapper-10 {
+  position: absolute;
+  width: 520px;
+  height: 59px;
+  top: 3px;
+  left: 28px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.inters-formativo .una-excelente {
+  position: absolute;
+  width: 555px;
+  height: 180px;
+  top: 100px;
+  left: 56px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.inters-formativo .text-wrapper-11 {
+  top: 67px;
+  left: 0;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.inters-formativo .text-wrapper-12 {
+  top: 263px;
+  left: 435px;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.inters-formativo .me-gustar-a-aprender {
+  position: absolute;
+  width: 549px;
+  height: 180px;
+  top: 299px;
+  left: 494px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.inters-formativo .vector-wrapper {
+  position: absolute;
+  width: 328px;
+  height: 288px;
+  top: 498px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-43.svg);
+  background-size: 100% 100%;
+}
+
+.inters-formativo .vector-53 {
+  position: absolute;
+  width: 200px;
+  height: 176px;
+  top: 45px;
+  left: 52px;
+}
+
+.inters-formativo .text-wrapper-13 {
+  position: absolute;
+  width: 473px;
+  height: 34px;
+  top: 120px;
+  left: 79px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}

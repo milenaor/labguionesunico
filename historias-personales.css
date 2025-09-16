@@ -1,0 +1,159 @@
+.historias-personales {
+  background-color: #009c94;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.historias-personales .div-2 {
+  background-color: #009c94;
+  overflow: hidden;
+  width: 1106px;
+  height: 632px;
+  position: relative;
+}
+
+.historias-personales .div-wrapper {
+  position: absolute;
+  width: 560px;
+  height: 68px;
+  top: 87px;
+  left: 48px;
+  background-color: #f3e7dd;
+  border-radius: 50px;
+}
+
+.historias-personales .p {
+  position: absolute;
+  width: 520px;
+  height: 59px;
+  top: 3px;
+  left: 28px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #629b99;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.historias-personales .motivaci-n-historias {
+  position: absolute;
+  width: 527px;
+  height: 34px;
+  top: 45px;
+  left: 58px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.historias-personales .span {
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.historias-personales .overlap-4 {
+  position: absolute;
+  width: 638px;
+  height: 612px;
+  top: 164px;
+  left: -10px;
+}
+
+.historias-personales .text-wrapper-4 {
+  top: 0;
+  left: 58px;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.historias-personales .vector-50 {
+  position: absolute;
+  width: 315px;
+  height: 351px;
+  top: 261px;
+  left: 0;
+}
+
+.historias-personales .me-gusta-mucho-el {
+  position: absolute;
+  width: 523px;
+  height: 269px;
+  top: 21px;
+  left: 115px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.historias-personales .overlap-group-3 {
+  position: absolute;
+  width: 487px;
+  height: 590px;
+  top: -18px;
+  left: 642px;
+}
+
+.historias-personales .text-wrapper-5 {
+  top: 276px;
+  left: 0;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.historias-personales .sue-o-con-hacer {
+  position: absolute;
+  width: 359px;
+  height: 282px;
+  top: 308px;
+  left: 56px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 45px;
+}
+
+.historias-personales .group-3 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 105px;
+  left: 352px;
+}
+
+.historias-personales .vector-51 {
+  position: absolute;
+  width: 211px;
+  height: 346px;
+  top: 0;
+  left: 276px;
+}

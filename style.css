@@ -1,0 +1,793 @@
+.index {
+  background-color: #f0e5db;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  opacity: 1;
+}
+
+.index .div {
+  background-color: #f0e5db;
+  overflow: hidden;
+  width: 1440px;
+  height: 853px;
+  position: relative;
+}
+
+.index .overlap {
+  position: absolute;
+  width: 700px;
+  height: 675px;
+  top: 59px;
+  left: 353px;
+}
+
+.index .overlap-group {
+  position: absolute;
+  width: 700px;
+  height: 675px;
+  top: 0;
+  left: 0;
+}
+
+.index .vector {
+  position: absolute;
+  width: 402px;
+  height: 330px;
+  top: 0;
+  left: 157px;
+  opacity: 1;
+}
+
+.index .group {
+  position: absolute;
+  width: 700px;
+  height: 416px;
+  top: 259px;
+  left: 0;
+  opacity: 1;
+}
+
+.index .text-wrapper {
+  position: absolute;
+  width: 360px;
+  top: 120px;
+  left: 168px;
+  font-family: "Cutive Mono", Helvetica;
+  font-weight: 400;
+  color: #35374d;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 25px;
+  opacity: 1;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.index .text-wrapper .highlight {
+  color: #DC6B5E;
+  font-weight: 500;
+}
+
+.index .typewriter-text {
+  display: inline;
+  white-space: normal;
+  word-wrap: break-word;
+  border-right: 2px solid transparent;
+  animation: blinkCursor 1s infinite;
+}
+
+.index .text-wrapper-2 {
+  position: absolute;
+  width: 353px;
+  height: 49px;
+  top: 5px;
+  left: 193px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #dc6b5e;
+  font-size: 38px;
+  letter-spacing: 0;
+  line-height: 130px;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+/* Pantalla de apertura simple y efectiva */
+.opening-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #284654 0%, #1a2f3a 100%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeOutOverlay 6s ease-in-out forwards;
+}
+
+.opening-title {
+  font-family: "Lilita One", Helvetica;
+  font-size: 120px;
+  color: #f9f2e8;
+  text-align: center;
+  margin-bottom: 30px;
+  opacity: 0;
+  animation: titleAppear 2s ease-out 0.5s forwards;
+  text-shadow: 0 0 30px rgba(249, 242, 232, 0.5);
+}
+
+.opening-subtitle {
+  font-family: "Manjari", Helvetica;
+  font-size: 24px;
+  color: #f9f2e8;
+  text-align: center;
+  opacity: 0;
+  animation: subtitleAppear 1.5s ease-out 2s forwards;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* Animaciones de la pantalla de apertura */
+@keyframes fadeOutOverlay {
+  0% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { 
+    opacity: 0; 
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@keyframes titleAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes subtitleAppear {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.index .img {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 62px;
+  left: 45px;
+  animation: float 4s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.index .vector-2 {
+  position: absolute;
+  width: 15px;
+  height: 23px;
+  top: 16px;
+  left: 624px;
+  animation: float 3.5s ease-in-out infinite;
+  animation-delay: 0.8s;
+}
+
+.index .vector-3 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 233px;
+  left: 67px;
+}
+
+.index .vector-4 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 192px;
+  left: 627px;
+}
+
+.index .vector-5 {
+  position: absolute;
+  width: 17px;
+  height: 30px;
+  top: 297px;
+  left: 329px;
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.index .vector-6 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 711px;
+  left: 1090px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.1s;
+}
+
+.index .vector-7 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 656px;
+  left: 50px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+
+.index .overlap-group-2 {
+  position: absolute;
+  width: 1445px;
+  height: 92px;
+  top: 761px;
+  left: -5px;
+  opacity: 1;
+}
+
+.index .vector-8 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 31px;
+  left: 374px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.index .vector-9 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 26px;
+  left: 513px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.2s;
+}
+
+.index .vector-10 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 40px;
+  left: 1020px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.5s;
+}
+
+.index .vector-11 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 45px;
+  left: 1199px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.8s;
+}
+
+.index .vector-12 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 12px;
+  left: 1407px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.8s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.index .vector-13 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 60px;
+  left: 869px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.1s ease-in-out infinite;
+  animation-delay: 1.1s;
+}
+
+.index .vector-14 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 50px;
+  left: 643px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.5s ease-in-out infinite;
+  animation-delay: 0.7s;
+}
+
+.index .vector-15 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 55px;
+  left: 250px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.4s ease-in-out infinite;
+  animation-delay: 1.8s;
+}
+
+.index .vector-16 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 55px;
+  left: 50px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.9s ease-in-out infinite;
+  animation-delay: 0.4s;
+}
+
+.index .rectangle {
+  width: 1445px;
+  height: 92px;
+  top: 0;
+  background-color: #284654;
+  position: absolute;
+  left: 0;
+}
+
+.index .group-2 {
+  position: absolute;
+  width: 354px;
+  height: 59px;
+  top: 17px;
+  left: 521px;
+  opacity: 1;
+}
+
+.index .vector-17 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 523px;
+  left: 1310px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.index .vector-18 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 207px;
+  left: 40px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.index .vector-19 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 23px;
+  left: 230px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.8s;
+}
+
+.index .vector-20 {
+  position: absolute;
+  width: 24px;
+  height: 38px;
+  top: 16px;
+  left: 713px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.9s;
+}
+
+.index .overlap-2 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 321px;
+  left: -322px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-210.svg);
+  background-size: 100% 100%;
+}
+
+.index .vector-21 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.index .vector-22 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 0;
+  left: 0;
+}
+
+.index .vector-23 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 63px;
+  left: 74px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.9s;
+}
+
+.index .vector-24 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 222px;
+  left: 1074px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.index .vector-25 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 338px;
+  left: 1375px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.3s;
+}
+
+.index .vector-26 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 449px;
+  left: 234px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.7s;
+}
+
+.index .vector-27 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 609px;
+  left: 166px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.index .vector-28 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 735px;
+  left: 1299px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.7s;
+}
+
+.index .vector-29 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 482px;
+  left: 1391px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 0.3s;
+}
+
+.index .vector-30 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 482px;
+  left: 1092px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.1s;
+}
+
+.index .vector-31 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 297px;
+  left: 1210px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.0s;
+}
+
+.index .vector-32 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 75px;
+  left: 1299px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.index .vector-33 {
+  position: absolute;
+  width: 16px;
+  height: 24px;
+  top: 293px;
+  left: 136px;
+  color: #494C7F;
+  animation: starBlink 3s ease-in-out infinite;
+  animation-delay: 2.4s;
+}
+
+.index .vector-34 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 392px;
+  left: 1104px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.2s ease-in-out infinite;
+  animation-delay: 1.4s;
+}
+
+.index .vector-35 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 181px;
+  left: 1227px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.7s ease-in-out infinite;
+  animation-delay: 0.9s;
+}
+
+.index .vector-36 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 619px;
+  left: 264px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.0s ease-in-out infinite;
+  animation-delay: 2.1s;
+}
+
+.index .vector-37 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 652px;
+  left: 1122px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.6s ease-in-out infinite;
+  animation-delay: 0.6s;
+}
+
+.index .vector-38 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 467px;
+  left: 1240px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.3s ease-in-out infinite;
+  animation-delay: 1.7s;
+}
+
+.index .vector-39 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 121px;
+  left: 1375px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.8s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+.index .vector-40 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 547px;
+  left: 1189px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.1s ease-in-out infinite;
+  animation-delay: 1.3s;
+}
+
+.index .vector-41 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 245px;
+  left: 1329px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.9s ease-in-out infinite;
+  animation-delay: 2.4s;
+}
+
+.index .vector-42 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 463px;
+  left: 166px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.4s ease-in-out infinite;
+  animation-delay: 0.8s;
+}
+
+.index .vector-43 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 209px;
+  left: 326px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.5s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+.index .vector-44 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 42px;
+  left: 519px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.0s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+
+.index .vector-45 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 735px;
+  left: 188px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.8s ease-in-out infinite;
+  animation-delay: 2.2s;
+}
+
+.index .vector-46 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 420px;
+  left: 38px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.2s ease-in-out infinite;
+  animation-delay: 1.0s;
+}
+
+.index .vector-47 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 54px;
+  left: 891px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.7s ease-in-out infinite;
+  animation-delay: 1.9s;
+}
+
+.index .vector-48 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 63px;
+  left: 1164px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 2.1s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.index .vector-49 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 446px;
+  left: 1170px;
+  background-color: #494C7F;
+  border-radius: 50%;
+  animation: twinkle 1.6s ease-in-out infinite;
+  animation-delay: 2.0s;
+}
+
+.index .overlap-3 {
+  position: absolute;
+  width: 204px;
+  height: 49px;
+  top: 627px;
+  left: 1138px;
+  opacity: 1;
+}
+
+.index .rectangle-2 {
+  width: 204px;
+  height: 48px;
+  top: 1px;
+  background-color: #df2600;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #494c7f;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.index .rectangle-2:hover {
+  transform: translateY(-3px);
+  background-color: #ff3a1a;
+  box-shadow: 0 8px 20px rgba(223, 38, 0, 0.4);
+}
+
+.index .text-wrapper-3 {
+  position: absolute;
+  width: 204px;
+  top: 0;
+  left: 0;
+  font-family: "Manjari", Helvetica;
+  font-weight: 700;
+  color: #f9f2e8;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+  pointer-events: none;
+}

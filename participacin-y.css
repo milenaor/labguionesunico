@@ -1,0 +1,185 @@
+.participacin-y {
+  background-color: #ba3928;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.participacin-y .div-4 {
+  background-color: #ba3928;
+  overflow: hidden;
+  width: 1106px;
+  height: 632px;
+  position: relative;
+}
+
+.participacin-y .overlap-9 {
+  position: absolute;
+  width: 1088px;
+  height: 399px;
+  top: -38px;
+  left: 41px;
+}
+
+.participacin-y .overlap-10 {
+  position: absolute;
+  width: 1088px;
+  height: 399px;
+  top: 0;
+  left: 0;
+}
+
+.participacin-y .overlap-group-6 {
+  position: absolute;
+  width: 228px;
+  height: 236px;
+  top: 0;
+  left: 860px;
+  background-image: url(https://c.animaapp.com/mfmus6pb7L3zlF/img/vector-23.svg);
+  background-size: 100% 100%;
+}
+
+.participacin-y .vector-54 {
+  position: absolute;
+  width: 121px;
+  height: 125px;
+  top: 74px;
+  left: 53px;
+}
+
+.participacin-y .group-6 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: 125px;
+  left: 93px;
+}
+
+.participacin-y .overlap-11 {
+  position: absolute;
+  width: 903px;
+  height: 200px;
+  top: 199px;
+  left: 0;
+}
+
+.participacin-y .text-wrapper-14 {
+  left: 0;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  top: 0;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.participacin-y .text-wrapper-15 {
+  position: absolute;
+  width: 842px;
+  height: 157px;
+  top: 43px;
+  left: 61px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.participacin-y .overlap-12 {
+  position: absolute;
+  width: 560px;
+  height: 68px;
+  top: 125px;
+  left: 7px;
+  background-color: #efe4da;
+  border-radius: 50px;
+}
+
+.participacin-y .text-wrapper-16 {
+  position: absolute;
+  width: 520px;
+  height: 59px;
+  top: 3px;
+  left: 28px;
+  font-family: "Lilita One", Helvetica;
+  font-weight: 400;
+  color: #bc4e4f;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.participacin-y .span-wrapper {
+  position: absolute;
+  width: 473px;
+  height: 34px;
+  top: 83px;
+  left: 17px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.participacin-y .text-wrapper-17 {
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #f9f2e8;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.participacin-y .overlap-13 {
+  position: absolute;
+  width: 1130px;
+  height: 380px;
+  top: 383px;
+  left: -43px;
+}
+
+.participacin-y .text-wrapper-18 {
+  left: 385px;
+  position: absolute;
+  width: 70px;
+  height: 189px;
+  top: 0;
+  font-family: "Libre Caslon Text", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 128px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.participacin-y .mi-deseo-es-adquirir {
+  position: absolute;
+  width: 689px;
+  height: 175px;
+  top: 29px;
+  left: 441px;
+  font-family: "Manjari", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 55px;
+}
+
+.participacin-y .vector-55 {
+  position: absolute;
+  width: 398px;
+  height: 319px;
+  top: 61px;
+  left: 0;
+}
