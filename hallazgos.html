@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="hallazgos.css" />
+    <link rel="stylesheet" href="animations.css" />
+  </head>
+  <body>
+    <!-- Menú flotante -->
+    <div class="floating-menu" id="floatingMenu">
+      <div class="menu-toggle" id="menuToggle">
+        <div class="menu-dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+      <div class="menu-content" id="menuContent">
+        <a href="index.html" class="menu-item">
+          <div class="menu-icon home-icon"></div>
+          <span>Inicio</span>
+        </a>
+        <a href="introduccion.html" class="menu-item">
+          <div class="menu-icon intro-icon"></div>
+          <span>Introducción</span>
+        </a>
+        <a href="hallazgos.html" class="menu-item active">
+          <div class="menu-icon findings-icon"></div>
+          <span>Hallazgos</span>
+        </a>
+        <a href="guion-IA.html" class="menu-item">
+          <div class="menu-icon ai-icon"></div>
+          <span>Guión IA</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hallazgos">
+      <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+          <div class="hero-content">
+            <h1 class="main-title animate-fade-in-up">Cada guion es una forma de decir:</h1>
+            <h2 class="emphasis-title animate-wiggle animate-delay-1">¡Esto me importa!</h2>
+          </div>
+        </section>
+
+        <!-- Intro Text -->
+        <section class="intro-section">
+          <div class="intro-content">
+            <p class="intro-text animate-fade-in-up animate-delay-1">
+              Algunos escriben para recordar. Otros para sanar. Algunos quieren construir personajes más vivos; otros, contar una historia que no ha sido escuchada. Hay quienes sueñan con dirigir un cortometraje. Y quienes, simplemente, quieren aprender a narrar mejor.
+            </p>
+            <p class="intro-text highlight animate-fade-in-up animate-delay-2">
+              Además, detrás de todas esas razones, hay algo común:
+            </p>
+            <div class="desire-box animate-scale-in animate-delay-3">
+              <h3>El deseo de transformar lo vivido en algo que otros puedan ver</h3>
+            </div>
+          </div>
+        </section>
+
+        <!-- Question Section -->
+        <section class="question-section">
+          <h2 class="section-question">¿Qué motivaciones impulsan a la nueva generación de guionistas a participar en el laboratorio?</h2>
+        </section>
+
+        <!-- Motivations Chart -->
+        <section class="motivations-section">
+          <div class="motivations-chart">
+            <div class="chart-container">
+              <div class="motivation-item" data-category="construccion">
+                <div class="motivation-circle large" style="background: #E18564;">
+                  <span class="motivation-number">152</span>
+                </div>
+                <div class="motivation-label">Construcción de personajes</div>
+              </div>
+              
+              <div class="motivation-item" data-category="desarrollo">
+                <div class="motivation-circle medium" style="background: #DC6B5E;">
+                  <span class="motivation-number">38</span>
+                </div>
+                <div class="motivation-label">Desarrollo de historia</div>
+              </div>
+              
+              <div class="motivation-item" data-category="formativo">
+                <div class="motivation-circle small" style="background: #E1A64F;">
+                  <span class="motivation-number">17</span>
+                </div>
+                <div class="motivation-label">Interés formativo</div>
+              </div>
+              
+              <div class="motivation-item" data-category="participacion">
+                <div class="motivation-circle small" style="background: #BA3928;">
+                  <span class="motivation-number">12</span>
+                </div>
+                <div class="motivation-label">Participación y oportunidad</div>
+              </div>
+              
+              <div class="motivation-item" data-category="historias">
+                <div class="motivation-circle small" style="background: #009C94;">
+                  <span class="motivation-number">10</span>
+                </div>
+                <div class="motivation-label">Historias personales o sociales</div>
+              </div>
+              
+              <div class="motivation-item" data-category="proyeccion">
+                <div class="motivation-circle small" style="background: #2F324B;">
+                  <span class="motivation-number">10</span>
+                </div>
+                <div class="motivation-label">Proyección profesional</div>
+              </div>
+            </div>
+            
+            <div class="chart-legend">
+              <p># de guiones en esa categoría</p>
+              <div class="interaction-hint">
+                <img src="https://c.animaapp.com/mfmus6pb7L3zlF/img/mouse-pointer-click-1.svg" alt="Click" />
+                <span>Haz clic en cualquier elemento.</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Themes Section -->
+        <section class="themes-section">
+          <h2 class="section-title">Escribir parte de una necesidad íntima</h2>
+          <p class="themes-description">
+            Detrás de cada motivación, los guiones revelan un mismo tejido de emociones, conflictos y esperanzas, que al juntarse tantas voces aparecen patrones comunes. Lo que empezó como un impulso personal <span class="highlight">Se transforma en un mapa compartido de preocupaciones</span>
+          </p>
+          
+          <div class="word-cloud">
+            <span class="word large">Sueños</span>
+            <span class="word medium">Perdón</span>
+            <span class="word small">Emocional</span>
+            <span class="word large">Conflicto</span>
+            <span class="word medium">Soledad</span>
+            <span class="word large">Violencia</span>
+            <span class="word medium">Amor</span>
+            <span class="word small">Familiares</span>
+            <span class="word medium">Búsqueda</span>
+            <span class="word small">Culpa</span>
+            <span class="word medium">Madre</span>
+            <span class="word small">Pobreza</span>
+            <span class="word large">Identidad</span>
+            <span class="word medium">Autoaceptación</span>
+            <span class="word small">Amistad</span>
+            <span class="word medium">Miedo</span>
+            <span class="word small">Relaciones</span>
+            <span class="word small">Control</span>
+            <span class="word medium">Cambio</span>
+            <span class="word small">Lucha</span>
+            <span class="word medium">Social</span>
+            <span class="word large">Vida</span>
+            <span class="word medium">Superación</span>
+            <span class="word small">Depresión</span>
+            <span class="word medium">Redención</span>
+            <span class="word small">Memoria</span>
+            <span class="word medium">Pérdida</span>
+            <span class="word small">Desplazamiento</span>
+            <span class="word small">Misterio</span>
+            <span class="word small">Arte</span>
+            <span class="word medium">Esperanza</span>
+            <span class="word small">Trauma</span>
+            <span class="word medium">Muerte</span>
+          </div>
+        </section>
+
+        <!-- Genres Section -->
+        <section class="genres-section">
+          <h2 class="section-title">Los temas que aparecen en los guiones no existen en abstracto: necesitan un molde, una forma narrativa que los potencie.</h2>
+          
+          <div class="genres-intro">
+            <p>Por eso al clasificar los guiones según sus géneros cinematográficos, aparece un panorama claro. La mayoría de los participantes:</p>
+            <h3 class="drama-emphasis">¡Aman el drama!</h3>
+          </div>
+          
+          <div class="genres-chart">
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 100%; background: #E18564;">
+                <span class="genre-number">179</span>
+              </div>
+              <div class="genre-label">Drama</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 15%; background: #DC6B5E;">
+                <span class="genre-number">14</span>
+              </div>
+              <div class="genre-label">Fantasía</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 12%; background: #E1A64F;">
+                <span class="genre-number">12</span>
+              </div>
+              <div class="genre-label">Terror</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 12%; background: #BA3928;">
+                <span class="genre-number">12</span>
+              </div>
+              <div class="genre-label">Ciencia Ficción</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 8%; background: #009C94;">
+                <span class="genre-number">8</span>
+              </div>
+              <div class="genre-label">Aventura</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 5%; background: #2F324B;">
+                <span class="genre-number">5</span>
+              </div>
+              <div class="genre-label">Comedia</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 5%; background: #629B99;">
+                <span class="genre-number">5</span>
+              </div>
+              <div class="genre-label">Thriller</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 3%; background: #6881A4;">
+                <span class="genre-number">3</span>
+              </div>
+              <div class="genre-label">Musical</div>
+            </div>
+            <div class="genre-item">
+              <div class="genre-bar" style="height: 1%; background: #494C7F;">
+                <span class="genre-number">1</span>
+              </div>
+              <div class="genre-label">Western</div>
+            </div>
+          </div>
+          
+          <p class="genres-conclusion">
+            Aun así, cada año se cuelan nuevas formas de narrar. Ciencia ficción, terror, fantasía, western. Cada género elegido es también una declaración: sobre qué queremos decir y cómo queremos ser escuchados. El género es una llave. Y los estudiantes del laboratorio están aprendiendo a usarla con fuerza y sensibilidad.
+          </p>
+        </section>
+
+        <!-- Navigation -->
+        <div class="navigation">
+          <a href="introduccion.html" class="nav-button secondary">
+            <img src="https://c.animaapp.com/mfmus6pb7L3zlF/img/arrow-left-1.svg" alt="Volver" />
+            <span>Volver</span>
+          </a>
+          <a href="guion-IA.html" class="nav-button primary">
+            <span>Continuar</span>
+            <img src="https://c.animaapp.com/mfmus6pb7L3zlF/img/arrow-left-2.svg" alt="Continuar" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="floating-menu.js"></script>
+  </body>
+</html>
